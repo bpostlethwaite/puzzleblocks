@@ -1,0 +1,24 @@
+{
+  "author": "Ben Postlethwaite <post.ben.here@gmail.com>",
+  "name": "puzzleblocks",
+  "description": "A 'learn to program' app involving google-blockly and solving puzzles",
+  "version": "0.0.1-1",
+  "homepage": "https://github.com/bpostlethwaite/puzzleblocks",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bpostlethwaite/puzzleblocks.git"
+  },
+  "main": "server.js",
+  "dependencies": {
+    "node-static": ">= 0.5.0"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "0.6.x"
+  },
+  "subdomain": "puzzleblocks",
+  "scripts": {
+    "start": "server.js"
+  }
+}
